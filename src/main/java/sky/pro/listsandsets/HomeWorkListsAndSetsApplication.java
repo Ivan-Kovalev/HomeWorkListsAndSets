@@ -1,4 +1,4 @@
-package sky.pro.HomeWorkListsAndSets;
+package sky.pro.listsandsets;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

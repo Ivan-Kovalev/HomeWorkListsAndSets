@@ -1,4 +1,4 @@
-package sky.pro.HomeWorkListsAndSets;
+package sky.pro.listsandsets;
 
 import java.util.Objects;
 
