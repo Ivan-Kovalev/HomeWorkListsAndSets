@@ -3,6 +3,7 @@ package sky.pro.listsandsets;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 @Service
@@ -45,6 +46,6 @@ public class EmployeeServiceImpl implements EmployeeService {
 
     @Override
     public List<Employee> getEmployeeList() {
-        return employeeList;
+        return Collections.unmodifiableList(employeeList);
     }
 }
