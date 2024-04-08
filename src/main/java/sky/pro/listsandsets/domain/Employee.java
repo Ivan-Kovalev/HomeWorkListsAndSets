@@ -1,4 +1,4 @@
-package sky.pro.listsandsets;
+package sky.pro.listsandsets.domain;
 
 import java.util.Objects;
 

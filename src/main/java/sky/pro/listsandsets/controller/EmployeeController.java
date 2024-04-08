@@ -1,6 +1,8 @@
-package sky.pro.listsandsets;
+package sky.pro.listsandsets.controller;
 
 import org.springframework.web.bind.annotation.*;
+import sky.pro.listsandsets.domain.Employee;
+import sky.pro.listsandsets.service.EmployeeService;
 
 import java.util.Collection;
 
@@ -16,7 +18,7 @@ public class EmployeeController {
 
     @GetMapping(path = "/add")
     public Employee addEmployee(@RequestParam("firstName") String firstName,
-                            @RequestParam("lastName") String lastName) {
+                                @RequestParam("lastName") String lastName) {
         return employeeService.add(firstName, lastName);
     }
 
